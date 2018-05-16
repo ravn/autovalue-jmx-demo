@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>dk.kb.tra.autovaluejmx</groupId>
+    <artifactId>autovalue-jmx-demo</artifactId>
+    <version>master-SNAPSHOT</version>
+
+    <properties>
+        <project.build.sourceEncoding>ASCII</project.build.sourceEncoding>
+        <maven.compiler.target>10</maven.compiler.target>
+        <maven.compiler.source>10</maven.compiler.source>
+    </properties>
+    <licenses>
+        <license>
+            <name>The Apache License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+        </license>
+    </licenses>
+
+    <dependencies>
+        <!-- https://github.com/google/auto/blob/master/value/userguide/index.md -->
+        <dependency>
+            <groupId>com.google.auto.value</groupId>
+            <artifactId>auto-value-annotations</artifactId>
+            <version>1.6</version>
+        </dependency>
+        <dependency>
+            <groupId>com.google.auto.value</groupId>
+            <artifactId>auto-value</artifactId>
+            <version>1.6</version>
+            <scope>provided</scope>
+        </dependency>
+    </dependencies>
+</project>
